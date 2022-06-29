@@ -9,7 +9,7 @@ const Tab = createMaterialTopTabNavigator();
 
 const HomeTabs = () => {
   return (
-    <Tab.Navigator initialRouteName={Routes.HomeTabs}>
+    <Tab.Navigator initialRouteName={Routes.Home}>
       <Tab.Screen name={Routes.Home} component={HomeScreen} />
       <Tab.Screen name={Routes.ProfileStack} component={ProfileStack} />
     </Tab.Navigator>
